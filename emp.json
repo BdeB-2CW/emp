@@ -1,0 +1,241 @@
+{
+  "items": [
+    {
+      "empno": 7369,
+      "ename": "SMITH",
+      "job": "CLERK",
+      "mgr": 7902,
+      "hiredate": "1980-12-17T05:00:00Z",
+      "sal": 800,
+      "comm": null,
+      "deptno": 20,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7369"
+        }
+      ]
+    },
+    {
+      "empno": 7499,
+      "ename": "ALLEN",
+      "job": "SALESMAN",
+      "mgr": 7698,
+      "hiredate": "1981-02-20T05:00:00Z",
+      "sal": 1600,
+      "comm": 300,
+      "deptno": 30,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7499"
+        }
+      ]
+    },
+    {
+      "empno": 7521,
+      "ename": "WARD",
+      "job": "SALESMAN",
+      "mgr": 7698,
+      "hiredate": "1981-02-22T05:00:00Z",
+      "sal": 1250,
+      "comm": 500,
+      "deptno": 30,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7521"
+        }
+      ]
+    },
+    {
+      "empno": 7566,
+      "ename": "JONES",
+      "job": "MANAGER",
+      "mgr": 7839,
+      "hiredate": "1981-04-02T05:00:00Z",
+      "sal": 2975,
+      "comm": null,
+      "deptno": 20,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7566"
+        }
+      ]
+    },
+    {
+      "empno": 7654,
+      "ename": "MARTIN",
+      "job": "SALESMAN",
+      "mgr": 7698,
+      "hiredate": "1981-09-28T04:00:00Z",
+      "sal": 1250,
+      "comm": 1400,
+      "deptno": 30,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7654"
+        }
+      ]
+    },
+    {
+      "empno": 7698,
+      "ename": "BLAKE",
+      "job": "MANAGER",
+      "mgr": 7839,
+      "hiredate": "1981-05-01T04:00:00Z",
+      "sal": 2850,
+      "comm": null,
+      "deptno": 30,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7698"
+        }
+      ]
+    },
+    {
+      "empno": 7782,
+      "ename": "CLARK",
+      "job": "MANAGER",
+      "mgr": 7839,
+      "hiredate": "1981-06-09T04:00:00Z",
+      "sal": 2450,
+      "comm": null,
+      "deptno": 10,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7782"
+        }
+      ]
+    },
+    {
+      "empno": 7788,
+      "ename": "SCOTT",
+      "job": "ANALYST",
+      "mgr": 7566,
+      "hiredate": "1987-04-19T04:00:00Z",
+      "sal": 3000,
+      "comm": null,
+      "deptno": 20,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7788"
+        }
+      ]
+    },
+    {
+      "empno": 7839,
+      "ename": "KING",
+      "job": "PRESIDENT",
+      "mgr": null,
+      "hiredate": "1981-11-17T05:00:00Z",
+      "sal": 5000,
+      "comm": null,
+      "deptno": 10,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7839"
+        }
+      ]
+    },
+    {
+      "empno": 7844,
+      "ename": "TURNER",
+      "job": "SALESMAN",
+      "mgr": 7698,
+      "hiredate": "1981-09-08T04:00:00Z",
+      "sal": 1500,
+      "comm": 0,
+      "deptno": 30,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7844"
+        }
+      ]
+    },
+    {
+      "empno": 7876,
+      "ename": "ADAMS",
+      "job": "CLERK",
+      "mgr": 7788,
+      "hiredate": "1987-05-23T04:00:00Z",
+      "sal": 1100,
+      "comm": null,
+      "deptno": 20,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7876"
+        }
+      ]
+    },
+    {
+      "empno": 7900,
+      "ename": "JAMES",
+      "job": "CLERK",
+      "mgr": 7698,
+      "hiredate": "1981-12-03T05:00:00Z",
+      "sal": 950,
+      "comm": null,
+      "deptno": 30,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7900"
+        }
+      ]
+    },
+    {
+      "empno": 7902,
+      "ename": "FORD",
+      "job": "ANALYST",
+      "mgr": 7566,
+      "hiredate": "1981-12-03T05:00:00Z",
+      "sal": 3000,
+      "comm": null,
+      "deptno": 20,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7902"
+        }
+      ]
+    },
+    {
+      "empno": 7934,
+      "ename": "MILLER",
+      "job": "CLERK",
+      "mgr": 7782,
+      "hiredate": "1982-01-23T05:00:00Z",
+      "sal": 1300,
+      "comm": null,
+      "deptno": 10,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://localhost:8080/ords/hr2/employees/7934"
+        }
+      ]
+    }
+  ],
+  "hasMore": false,
+  "limit": 25,
+  "offset": 0,
+  "count": 14,
+  "links": [
+    { "rel": "self", "href": "http://localhost:8080/ords/hr2/employees/" },
+    { "rel": "edit", "href": "http://localhost:8080/ords/hr2/employees/" },
+    {
+      "rel": "describedby",
+      "href": "http://localhost:8080/ords/hr2/metadata-catalog/employees/"
+    },
+    { "rel": "first", "href": "http://localhost:8080/ords/hr2/employees/" }
+  ]
+}
