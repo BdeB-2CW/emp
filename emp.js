@@ -18,11 +18,12 @@ function append(parent, el) {
 }
 
 const ul = document.getElementById("employees");
-const url = "https://randomuser.me/api/?results=10";
+//const url = "https://randomuser.me/api/?results=10";
+const url = "http://localhost:8080/ords/hr2/employees";
 fetch(url)
   .then((resp) => resp.json())
   .then(function (data) {
-    let employees = data.results;
+    let employees = data; //.results;
     return employees.map(function (employee) {
       let li = createNode("li"),
         //  img = createNode("img"),
