@@ -25,11 +25,11 @@ fetch(url)
     let employees = data.results;
     return employees.map(function (employee) {
       let li = createNode("li"),
-        img = createNode("img"),
+        //  img = createNode("img"),
         span = createNode("span");
-      img.src = employee.picture.medium;
+      //img.src = employee.picture.medium;
       span.innerHTML = `${employee.name.first} ${employee.name.last}`;
-      append(li, img);
+      //append(li, img);
       append(li, span);
       append(ul, li);
     });
