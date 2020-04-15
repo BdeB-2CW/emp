@@ -15,7 +15,7 @@ fetch(url)
     return employees.map(function (employee) {
       let li = createNode("li"),
         span = createNode("span");
-      span.innerHTML = `${employee.ename} ${employee.job}`;
+      span.innerHTML = `${employee.empno} ${employee.ename}`;
       append(li, span);
       append(ul, li);
     });
