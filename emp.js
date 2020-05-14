@@ -25,5 +25,3 @@ fetch(url)
   .catch(function (error) {
     console.log(JSON.stringify(error));
   });
-
-  
