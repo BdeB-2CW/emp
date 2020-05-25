@@ -2,9 +2,25 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
+#insert {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
 #affichage {
   color: red;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+#titre2{
+  color: black;
+}
+
+.JF{
+  background-color: chartreuse;
 }
 
 .container {

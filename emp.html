@@ -13,11 +13,39 @@
   </head>
   <body>
     <div id="root">
-        <h1>Employees</h1>
-        <span id="affichage">
-          <ul id="employees"></ul>
+      <h1 class="JF">Employées</h1>
+      <h1 id="titre2">de la base de données</h1>
+      <h2 class="JF">de Jean-François</h2>
+      <span id="affichage">
+        <ul id="employees"></ul>
       </span>
     </div>
+
+    <div id="insert">
+      <h2>Insertion des employés</h2>
+      <label for="empno">No de l'employé (4 a 8 caractères):</label>
+      <input
+        type="text"
+        id="empno"
+        name="empno"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+      <label for="ename">Nom de l'employé (10 a 20 caractères):</label>
+      <input
+        type="text"
+        id="ename"
+        name="ename"
+        required
+        minlength="2"
+        maxlength="20"
+        size="10"
+      />
+      <input id="clickMe" type="button" value="Insérer" onclick="ins_empl();" />
+    </div>
     <script src="emp.js"></script>
+    <script src="ins_emp2.js"></script>
   </body>
 </html>
